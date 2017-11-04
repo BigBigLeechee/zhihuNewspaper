@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_public_newsItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/main_cell_bg">
+
+    <TextView
+        android:id="@+id/tv_public_newText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/main_default_text"
+        android:textSize="20sp"
+        android:maxEms="10"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_public_newImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/defalut_image_background"/>
+
+
+</LinearLayout>

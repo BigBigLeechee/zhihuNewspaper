@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">我的知乎日报</string>
+
+    <!--main-->
+    <string name="main_title">首页</string>
+    <string name="main_date">10月25日</string>
+    <string name="main_default_text">当前没有任何内容哟</string>
+    <string name="main_titleText">新闻的内容</string>
+
+    <!--more theme-->
+    <string name="moreTheme_username">用户名</string>
+    <string name="moreTheme_currentTheme">主页</string>
+    <string name="moreTheme_themeName">主题名称</string>
+
+
+    <!--theme-->
+    <string name="theme_editor">主编</string>
+
+    <!--editors-->
+    <string name="editors_name">名字</string>
+    <string name="editors_description">描述</string>
+
+</resources>

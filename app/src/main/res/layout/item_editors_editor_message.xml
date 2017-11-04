@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:id="@+id/rl_editors_editorMessage"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_editors_editorImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        fresco:roundAsCircle="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/sdv_editors_editorImage"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_editors_editorName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/editors_name"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_editors_editorDescription"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/editors_description"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
